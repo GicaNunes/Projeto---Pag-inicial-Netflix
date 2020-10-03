@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: "Consolas" , Lucida Sans, Lucida Sans Regular;
+    color: rgb(250, 225, 229);
+}
+
+header .logo{
+    margin-left: 8px;
+    color: crimson;
+    font-family: "Helvetica", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+header nav a{
+    text-decoration: none;
+    color: darkgoldenrod;
+    margin-right: 15px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav a:hover{
+    color: gold;
+}
+
+.capa{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0, .50), rgba(0, 0, 0, .50)100%), url("../img/capa.jpg");
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.capa .sinopse{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+.titulo{
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.botao{
+    background-color: rgba(58, 56, 56, 0.356);
+    border: none;
+    border-radius: 10px;
+    color:  rgb(250, 225, 229);
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 3s ease-out;
+
+}
+.botao:hover{
+    background-color:  rgb(250, 225, 229);
+    color: rgb(30, 43, 43);
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.capa .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-programacao{
+    margin-top: 10px;
+}
+
+
+
